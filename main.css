@@ -1,0 +1,46 @@
+.intro-block {
+	display: none;
+}
+
+.home .intro-block {
+	display: block;
+}
+
+.page-title {
+	display: none;
+}
+
+.site-branding img, img.custom-logo {
+	width: 150px;
+}
+
+.menu-logo {
+	display: none;
+}
+
+@media screen and (max-width: 959px){
+	.site-branding {
+		margin-top: 2em;
+	}
+	
+	.site-branding img, img.custom-logo {
+			display:none;
+	}
+	
+	#site-navigation {
+		background-color: #F2F2F2;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.menu-toggle, #header-search-btn {
+		color: #555;
+		background-color: #F2F2F2;
+	}
+	.menu-logo {
+	  display: block;
+		width: 60px;
+  }
+
+}

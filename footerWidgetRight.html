@@ -1,0 +1,9 @@
+Appearance > Widgets > Footer Widget Right > Custom Html
+<script>
+var img = document.createElement('img');
+	img.setAttribute('src', 'https://i1.wp.com/www.chillingandspice.com/wp-content/uploads/2018/09/cropped-01_logo_1x1_mid1-e1536234843139-3.png?fit=300%2C300')
+	img.classList.add('menu-logo')
+var menuToggle = document.querySelector('.menu-toggle')
+	menuToggle.parentNode.insertBefore(img, menuToggle.nextSibling)
+	menuToggle.lastChild.textContent = ""
+</script>
